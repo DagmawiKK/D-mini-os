@@ -1,7 +1,7 @@
 import freetype
 
-font_filename = 'fonts/arial.ttf'
-font_name = 'Arial'
+font_filename = 'fonts/Hack-Regular.ttf'
+font_name = 'Monospace'
 
 font_width = 10
 font_height = 15

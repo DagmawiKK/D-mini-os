@@ -9,14 +9,14 @@ section code
 .switch:
 
     mov ax, 0x4f01 ; vbe
-    mov cx, 0x117
+    mov cx, 0x111
     mov bx, 0x0800
     mov es, bx
     mov di, 0x00
     int 0x10 
 
     mov ax, 0x4f02
-    mov bx, 0x117
+    mov bx, 0x111
     int 0x10
 
     xor ax, ax
@@ -25,7 +25,7 @@ section code
 
     mov bx, 0x1000
     mov ah, 0x02
-    mov al, 1
+    mov al, 24
     mov ch, 0x00
     mov dh, 0x00
     mov cl, 0x02
